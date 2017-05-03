@@ -46,8 +46,8 @@ namespace PrideRock
                     {
                         Blood.transform.position = hit.transform.position;
                         Blood.SetActive(true);
-                        Blood.transform.Translate(0, -2,0);
-                        Destroy(hit.transform.gameObject); //..the object gets destroyed
+                        Blood.transform.Translate(0, -1,0);
+                        Destroy(hit.transform.gameObject, 0.3f); //..the object gets destroyed
                     }
 
                 }
@@ -64,7 +64,7 @@ namespace PrideRock
             Fire.SetActive(true);
             yield return new WaitForSeconds(0.5f);
             Fire.SetActive(false);
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(0.1f);
             Blood.SetActive(false);
 
 
