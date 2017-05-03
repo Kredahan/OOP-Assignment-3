@@ -21,13 +21,21 @@ public class EnemySpawn : MonoBehaviour {
 
     void SpawnObject()
     {
-        for(int i=0;i<numberOffEnemies;i++)
+        StartCoroutine("waitForFiveSeconds");
+
+        for (int i=0;i<numberOffEnemies;i++)
         {
             spawnPosition = transform.position + Random.insideUnitSphere * spawnRadius;
             Vector3 adjustedPos = new Vector3(spawnPosition.x, 1, spawnPosition.z);
             Instantiate(objectToSpawn, adjustedPos, Quaternion.identity);
         }
 
+
+    }
+
+    IEnumerator waitForFiveSeconds()
+    {
+        yield return new WaitForSeconds(5);
 
     }
 }

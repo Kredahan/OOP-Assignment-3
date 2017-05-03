@@ -7,9 +7,10 @@ public class Timer : MonoBehaviour {
 
     public Text timerText;
     private float startTime;
-    private bool dead = false;
+    private bool dead;
 	// Use this for initialization
 	void Start () {
+        dead = false;
         startTime = Time.time;
 	}
 	
