@@ -33,19 +33,6 @@ public class LevelManager : MonoBehaviour {
         }
 
     }
-
-    public void PreferencesMenu (bool clicked)
-    {
-        if(clicked == true)
-        {
-            preferencesMenu.gameObject.SetActive(clicked);
-            mainMenu.gameObject.SetActive(false);
-        }else
-        {
-            preferencesMenu.gameObject.SetActive(clicked);
-            mainMenu.gameObject.SetActive(true);
-        }
-    }
     
     public void Mute()
     {
