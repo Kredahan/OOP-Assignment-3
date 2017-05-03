@@ -31,7 +31,8 @@ public class Timer : MonoBehaviour {
 
     public void Die()
     {
-        dead = true;
+        //dead = true;
+        Application.Quit();
         timerText.color = Color.red;
 
     }
