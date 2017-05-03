@@ -15,6 +15,7 @@ namespace PrideRock
         private float nextFire;
         private RaycastHit hit;
         private float range = 300;
+        //public int ammo;
 
         // Use this for initialization
         void Start()
