@@ -42,9 +42,12 @@ namespace PrideRock
                 if (Physics.Raycast(transform.position, transform.forward, out hit, range))
                 {
                     Debug.Log(hit.transform.name);
-                    if (hit.transform.tag == "Enemy")
+                    if (hit.transform.tag == "Enemy") //if the Object being hit by the raycast has the tag "Enemy"...
                     {
-                        Destroy(hit.transform.gameObject);
+                        Blood.transform.position = hit.transform.position;
+                        Blood.SetActive(true);
+                        Blood.transform.Translate(0, -2,0);
+                        Destroy(hit.transform.gameObject); //..the object gets destroyed
                     }
 
                 }
@@ -61,6 +64,8 @@ namespace PrideRock
             Fire.SetActive(true);
             yield return new WaitForSeconds(0.5f);
             Fire.SetActive(false);
+            yield return new WaitForSeconds(1);
+            Blood.SetActive(false);
 
 
 
