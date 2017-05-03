@@ -10,6 +10,7 @@ namespace PrideRock
     {
 
         public GameObject Fire;
+        public GameObject Blood;
         private float firerate = 0.1f;
         private float nextFire;
         private RaycastHit hit;
@@ -41,6 +42,11 @@ namespace PrideRock
                 if (Physics.Raycast(transform.position, transform.forward, out hit, range))
                 {
                     Debug.Log(hit.transform.name);
+                    if (hit.transform.tag == "Enemy")
+                    {
+                        Destroy(hit.transform.gameObject);
+                    }
+
                 }
                 nextFire = Time.time + firerate;
                 
