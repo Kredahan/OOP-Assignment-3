@@ -50,6 +50,7 @@ namespace PrideRock
                         Debug.Log(hit.transform.name);
                         if (hit.transform.tag == "Enemy") //if the Object being hit by the raycast has the tag "Enemy"...
                         {
+                            Debug.Log("Score + 10");
                             Blood.transform.position = hit.transform.position;
                             Blood.SetActive(true);
                             Blood.transform.Translate(0, -1, 0);
