@@ -8,7 +8,8 @@ namespace PrideRock
   
     public class Shoot : MonoBehaviour
     {
-
+        public int score;
+        public int ScoreX, ScoreY;
         public GameObject Fire;
         public int Ammo;
         public GameObject Blood;
@@ -16,6 +17,7 @@ namespace PrideRock
         private float nextFire;
         private RaycastHit hit;
         private float range = 300;
+       
         //public int ammo;
 
         // Use this for initialization
@@ -29,6 +31,11 @@ namespace PrideRock
         {
             CheckForInput();
 
+        }
+
+        private void OnGUI()
+        {
+            GUI.Label(new Rect(ScoreX, ScoreY, 100, 20), "Score:" + score.ToString());
         }
 
         void CheckForInput()
@@ -55,6 +62,7 @@ namespace PrideRock
                             Blood.SetActive(true);
                             Blood.transform.Translate(0, -1, 0);
                             Destroy(hit.transform.gameObject, 0.3f); //..the object gets destroyed
+                            score += 10;
                         }//end inner if
 
                     }//end outer if
