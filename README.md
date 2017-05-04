@@ -9,6 +9,7 @@ Objective in the game is too kill as many enemies as you can before dying
 
 # Youtube Video
 Our Youtube video of our assignment.
+[![Video](http://img.youtube.com/vi/D5g-00ufbzI/0.jpg)](http://www.youtube.com/watch?v==D5g-00ufbzI)
 
 # Features
 Main menu screen with different buttons - Start, Instructions, Mute
@@ -28,7 +29,8 @@ Point and Click - To use the buttons to navigate between screens
 W - Move foward
 S - Move backwards
 A - Move left
-D -Move right
+D - Move right
+r - Reload (Only works when the clip is empty)
 
 # Functionality
 
