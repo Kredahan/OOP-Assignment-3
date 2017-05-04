@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class DeathSense : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
-       // if(other.tag == "Player")
-        //{
+       if(other.tag == "Player")
+       {
         // GameObject.Find("Player").SendMessage("Die");
             Debug.Log("Player getting touched");
             //Time.timeScale = 0; //ending the game
             Application.LoadLevel("GameOver");
             //Destroy(other.gameObject);
-       // }
+       }
 
     }
 
