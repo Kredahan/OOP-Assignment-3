@@ -9,6 +9,12 @@ public class GameOverLevel : MonoBehaviour {
         Application.LoadLevel("PrideRock");
     }
 
+    public void LoadMenu(string name)
+    {
+        Application.LoadLevel("MainMenu");
+
+    }
+
     public void QuitGame()
     {
         Application.Quit();
