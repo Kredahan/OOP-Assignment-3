@@ -5,9 +5,10 @@ C15733571 - Michael O'Flaherty
 
 # Concept
 A first person shooter game created in Unity
+Objective in the game is too kill as many enemies as you can before dying
 
 # Youtube Video
-
+Our Youtube video of our assignment.
 
 # Features
 Main menu screen with different buttons - Start, Instructions, Mute
