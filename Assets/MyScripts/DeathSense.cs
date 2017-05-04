@@ -6,7 +6,11 @@ public class DeathSense : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        GameObject.Find("Player").SendMessage("Die");
+        //if (other.tag == "Player")
+        //{
+           // GameObject.Find("Player").SendMessage("Die");
+            Debug.Log("Player getting touched");
+       // }
 
     }
 }
