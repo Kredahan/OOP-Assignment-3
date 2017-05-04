@@ -12,6 +12,7 @@ namespace PrideRock
         public int ScoreX, ScoreY;
         public GameObject Fire;
         public int Ammo;
+        public int AmmoX, AmmoY;
         public GameObject Blood;
         private float firerate = 0.1f;
         private float nextFire;
@@ -36,6 +37,7 @@ namespace PrideRock
         private void OnGUI()
         {
             GUI.Label(new Rect(ScoreX, ScoreY, 100, 20), "Score:" + score.ToString());
+            GUI.Label(new Rect(AmmoX, AmmoY, 100, 20), "Ammo:" + Ammo.ToString());
         }
 
         void CheckForInput()
