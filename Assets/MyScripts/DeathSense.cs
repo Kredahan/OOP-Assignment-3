@@ -10,7 +10,7 @@ public class DeathSense : MonoBehaviour
         //{
            // GameObject.Find("Player").SendMessage("Die");
             Debug.Log("Player getting touched");
-            Time.timeScale = 0; //ending the game
+            //Time.timeScale = 0; //ending the game
             Application.LoadLevel("GameOver");
        // }
 
