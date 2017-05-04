@@ -47,10 +47,10 @@ public class EnemySpawn : MonoBehaviour {
     {
         for(int i = 0;i<1;i++)
         {
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(60);
             Debug.Log("More Enemies Spawned");
             SpawnObject();
-            yield return null;
+            //yield return null;
         }
         
     }
