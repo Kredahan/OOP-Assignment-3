@@ -12,12 +12,16 @@ public class EnemySpawn : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         SpawnObject();
-	}
+        StartCoroutine("waitForOneMinute");
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        
+     
+
+
+    }
 
     void SpawnObject()
     {
@@ -37,5 +41,17 @@ public class EnemySpawn : MonoBehaviour {
     {
         yield return new WaitForSeconds(5);
 
+    }
+
+    IEnumerator waitForOneMinute()
+    {
+        for(int i = 0;i<1;i++)
+        {
+            yield return new WaitForSeconds(10);
+            Debug.Log("More Enemies Spawned");
+            SpawnObject();
+            yield return null;
+        }
+        
     }
 }

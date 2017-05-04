@@ -18,6 +18,7 @@ namespace PrideRock
         private float nextFire;
         private RaycastHit hit;
         private float range = 300;
+        
        
         //public int ammo;
 
@@ -42,7 +43,12 @@ namespace PrideRock
 
         void CheckForInput()
         {
-            
+            if (Input.GetKeyDown("r") && Ammo == 0)
+            {
+                Ammo = 30;
+                Debug.Log("Reload");
+            }
+
             if (Input.GetButton("Fire1") && Time.time > nextFire)
             {
 
@@ -90,6 +96,23 @@ namespace PrideRock
 
 
         }//end coroutine
+
+        public void OnTriggerEnter(Collider other)
+        {
+            if (other.tag == "Ammo")
+            {
+                Debug.Log("Ammo Acquired");
+                Reload();
+
+            }
+
+        }
+
+        public void Reload()
+        {
+            Ammo += 30;
+        }
+
     }//end shoot class
 
 
