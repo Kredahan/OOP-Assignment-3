@@ -1,0 +1,109 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940M (ID=0x1347)
+    Vendor:   NVIDIA
+    VRAM:     2020 MB
+    Driver:   21.21.13.7682
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+Platform assembly: C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\kevin\Desktop\College\OOP\K-Street\Pace_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.841183 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3414 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.657003 ms
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1077.
+Total: 6.631760 ms (FindLiveObjects: 0.106835 ms CreateObjectMapping: 0.044787 ms MarkObjects: 0.357830 ms  DeleteObjects: 6.118574 ms)
+
+Enemy2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Score + 10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Enemy2(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Score + 10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Enemy2(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Score + 10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Enemy2(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Score + 10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Enemy2(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Score + 10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Enemy2(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Score + 10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Enemy2(Clone)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Score + 10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player getting touched
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.603819 ms
+
+Unloading 384 unused Assets to reduce memory usage. Loaded Objects now: 475.
+Total: 2.866376 ms (FindLiveObjects: 0.045720 ms CreateObjectMapping: 0.042454 ms MarkObjects: 0.301380 ms  DeleteObjects: 2.475421 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.473997 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 524.
+Total: 0.379290 ms (FindLiveObjects: 0.062048 ms CreateObjectMapping: 0.020993 ms MarkObjects: 0.284584 ms  DeleteObjects: 0.009797 ms)
+
